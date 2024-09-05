@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VerifiedGraphKeyCredential",
+  "type": "object",
+  "properties": {
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "encodedPublicKeyValue": {
+          "type": "string"
+        },
+        "encodedPrivateKeyValue": {
+          "type": "string"
+        },
+        "encoding": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "keyType": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "encodedPublicKeyValue",
+        "encodedPrivateKeyValue",
+        "encoding",
+        "format",
+        "type",
+        "keyType"
+      ]
+    }
+  }
+}
