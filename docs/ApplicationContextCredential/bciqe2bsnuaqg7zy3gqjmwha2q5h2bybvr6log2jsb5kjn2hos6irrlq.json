@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ApplicationContextCredential",
+  "type": "object",
+  "properties": {
+    "credentialSubject": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "application": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "object",
+              "minProperties": 1,
+              "additionalProperties": {
+                "type": "string"
+              }
+            },
+            "logo": {
+              "type": "object",
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "url": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "url"
+                ]
+              },
+              "minProperties": 1
+            }
+          },
+          "required": [
+            "name",
+            "logo"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "application"
+      ]
+    }
+  }
+}
