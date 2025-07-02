@@ -11,5 +11,6 @@ Schema documents hosted here are assigned URL paths based on the `title` propert
 | --- | --- |
 | [VerifiedEmailAddressCredential](./VerifiedEmailAddressCredential/bciqe4qoczhftici4dzfvfbel7fo4h4sr5grco3oovwyk6y4ynf44tsi.json) | `bciqe4qoczhftici4dzfvfbel7fo4h4sr5grco3oovwyk6y4ynf44tsi` |
 | [VerifiedGraphKeyCredential](./VerifiedGraphKeyCredential/bciqmdvmxd54zve5kifycgsdtoahs5ecf4hal2ts3eexkgocyc5oca2y.json) | `bciqmdvmxd54zve5kifycgsdtoahs5ecf4hal2ts3eexkgocyc5oca2y` |
+| [VerifiedRecoverySecretCredential](./VerifiedRecoverySecretCredential/bciqpg6qm4rnu2j4v6ghxqqgwkggokwvxs3t2bexbd3obkypkiryylxq.json) | `bciqpg6qm4rnu2j4v6ghxqqgwkggokwvxs3t2bexbd3obkypkiryylxq` |
 | [VerifiedPhoneNumberCredential](./VerifiedPhoneNumberCredential/bciqjspnbwpc3wjx4fewcek5daysdjpbf5xjimz5wnu5uj7e3vu2uwnq.json) | `bciqjspnbwpc3wjx4fewcek5daysdjpbf5xjimz5wnu5uj7e3vu2uwnq` |
 | [ApplicationContextCredential](./ApplicationContextCredential/bciqe2bsnuaqg7zy3gqjmwha2q5h2bybvr6log2jsb5kjn2hos6irrlq.json) | `bciqe2bsnuaqg7zy3gqjmwha2q5h2bybvr6log2jsb5kjn2hos6irrlq` |
